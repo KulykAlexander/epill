@@ -1,0 +1,65 @@
+<div class="modal buy" data-modal="1">
+  <button type="button" class="modal-close btn js-modal-close">
+    close
+    <!-- <svg class="close-icon" width="32" height="32">
+      <use href="./images/icons.svg#icon-modal-close"></use>
+    </svg> -->
+  </button>
+  <h2 class="buy-now-titel">Buy now</h2>
+  <ul class="buy-now-list list">
+    <li class="buy-now-item">
+      <div class="buy-now-card">
+        <div class="buy-now-circus"></div>
+
+        <p class="buy-now-text">ice cream</p>
+      </div>
+    </li>
+    <li class="buy-now-item">
+      <div class="buy-now-card">
+        <div class="buy-now-circus buy-now-coffee"></div>
+
+        <p class="buy-now-text ice-coffee">ice coffee</p>
+      </div>
+    </li>
+    <li class="buy-now-item">
+      <div class="buy-now-card">
+        <div class="buy-now-circus buy-now-milkshake"></div>
+
+        <p class="buy-now-text milkshake">milkshake</p>
+      </div>
+    </li>
+  </ul>
+  <form class="buy-now-form">
+    <div class="buy-now-form-field">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder=" "
+        pattern="[A-Za-z0-9]{3,}"
+        required
+      />
+    </div>
+    <div class="buy-now-form-field">
+      <label for="phone">Phone</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder=" "
+        pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+        minlength="13"
+        maxlength="13"
+        required
+      />
+    </div>
+
+    <div class="buy-now-form-field">
+      <label for="comment">Comment</label>
+      <textarea name="comment" rows="4" placeholder=" " id="comment"></textarea>
+    </div>
+
+    <button type="submit" class="buy-now-btn btn">Submit</button>
+  </form>
+</div>

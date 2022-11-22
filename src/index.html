@@ -8,7 +8,12 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <button type="button" class="js-open-modal" data-modal="1">
+      Open modal
+    </button>
+    <div class="overlay" id="overlay-modal"></div>
+    <include src="./partials/modal/discontinue-issue.html"></include>
+
+    <script type="function" src="./js/modal.js"></script>
   </body>
 </html>
