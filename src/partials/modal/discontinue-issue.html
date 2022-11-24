@@ -1,41 +1,37 @@
-<div class="modal buy" data-modal="1">
+<div class="modal discontinue" data-modal="1">
   <button type="button" class="modal-close btn js-modal-close">
     <svg class="close-icon" width="24" height="24">
       <use href="./images/modal/icons.svg#icon-modal-close"></use>
     </svg>
   </button>
-  <h2 class="buy-now-titel">Discontinue Issue</h2>
+  <h2 class="discontinue-titel">Discontinue Issue</h2>
 
-  <form class="buy-now-form">
-    <div>
-      <div class="buy-now-form-field">
-        <label for="name">Subject</label>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Discontinued for Chi, Kai"
-          required
-        />
+  <form class="discontinue-form">
+    <div class="issue">
+      <div class="subject">
+        <div class="discontinue-form-field">
+          <label for="name">Subject</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Discontinued for Chi, Kai"
+            required
+          />
+        </div>
+        <div class="discontinue-form-field">
+          <label for="assignet">Assignet to</label>
+          <select name="assignet" id="assignet" disabled>
+            <option value="user">Avonora User</option>
+          </select>
+        </div>
+        <label>
+          Date
+          <input lang="en" type="date" min="1920-01-01" max="2220-01-01" />
+        </label>
       </div>
-      <div class="buy-now-form-field">
-        <label for="phone">Assignet to</label>
-        <input
-          type="text"
-          name="phone"
-          id="phone"
-          placeholder="Avonora User"
-          minlength="13"
-          maxlength="13"
-          required
-        />
-      </div>
-      <label>
-        Date
-        <input lang="en" type="date" min="1920-01-01" max="2220-01-01" />
-      </label>
 
-      <div class="buy-now-form-field">
+      <div class="discontinue-form-field">
         <label for="comment">Description</label>
         <textarea
           name="comment"
@@ -45,7 +41,7 @@
         ></textarea>
       </div>
     </div>
-    <h2>Action Items</h2>
+    <h2 class="discontinue-titel">Action Items</h2>
     <table>
       <thead>
         <tr>
@@ -54,13 +50,21 @@
           <th>Refills left</th>
           <th>Q-ty</th>
           <th>Direction</th>
-          <th>DC</th>
-          <th>Refill</th>
+          <th>
+            <label for="ds"
+              >DC<input type="checkbox" name="ds" value="ds"
+            /></label>
+          </th>
+          <th>
+            <label for="ds"
+              >Refill<input type="checkbox" name="refill" value="refill"
+            /></label>
+          </th>
           <th>Comment</th>
         </tr>
       </thead>
 
-      <tbody>
+      <tbody class="tbody">
         <tr>
           <td>
             <img
@@ -71,14 +75,23 @@
             />
           </td>
           <td>
-            Acetaminophen 500mg<span>Dr. Abungu, Billy Scott RX#136284</span>
+            Acetaminophen 500mg<br /><span
+              >Dr. Abungu, Billy Scott RX#136284</span
+            >
           </td>
           <td>1</td>
           <td>60</td>
           <td>Take One Tablet By Mouth Twice A Day</td>
-          <th>DC</th>
-          <th>Refill</th>
-          <th>Comment</th>
+          <th><input type="checkbox" name="ds" value="ds" /></th>
+          <th><input type="checkbox" name="refill" value="refill" /></th>
+          <th>
+            <textarea
+              name="action-comment"
+              rows="1"
+              placeholder="Add comment"
+              id="action-comment"
+            ></textarea>
+          </th>
         </tr>
         <tr>
           <td>
@@ -90,17 +103,26 @@
             />
           </td>
           <td>
-            Acetaminophen 500mg<span>Dr. Abungu, Billy Scott RX#136284</span>
+            Acetaminophen 500mg<br /><span
+              >Dr. Abungu, Billy Scott RX#136284</span
+            >
           </td>
           <td>1</td>
           <td>60</td>
           <td>Take One Tablet By Mouth Twice A Day</td>
-          <th>DC</th>
-          <th>Refill</th>
-          <th>Comment</th>
+          <th><input type="checkbox" name="ds" value="ds" /></th>
+          <th><input type="checkbox" name="refill" value="refill" /></th>
+          <th>
+            <textarea
+              name="action-comment"
+              rows="1"
+              placeholder="Add comment"
+              id="action-comment"
+            ></textarea>
+          </th>
         </tr>
       </tbody>
     </table>
-    <button type="submit" class="buy-now-btn btn">Submit</button>
+    <button type="submit" class="discontinue-btn btn">Submit</button>
   </form>
 </div>
