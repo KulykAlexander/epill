@@ -26,9 +26,10 @@
   padding: 28px;
 
   // overflow: scroll;
+  font-family: 'Poppins', sans-serif;
 
-  background-color: var(--modal-bg-color);
-  border: 2px solid #edf2f9;
+  background-color: #d8e2ef;
+  border: 2px solid #d8e2ef;
   // border-radius: 10px;
   transform: translate(-50%, -50%);
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -52,13 +53,13 @@
     height: 26px;
     border: none;
 
-    color: #131313;
+    color: #5e6e82;
     background: var(--modal-bg-color);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      color: #f8d24e;
+      color: #fd5000;
     }
     // @include tablet {
     //   top: 20px;
