@@ -1,3 +1,4 @@
+<div class="overlay js-overlay-modal" id="overlay-modal"></div>
 <div class="modal discontinue" data-modal="1">
   <button type="button" class="modal-close btn js-modal-close">
     <svg class="close-icon" width="24" height="24">
@@ -51,21 +52,40 @@
           <th>Q-ty</th>
           <th>Direction</th>
           <th>
-            <label for="ds"
-              >DC<input type="checkbox" name="ds" value="ds"
-            /></label>
+            <div class="tadle-head-check">
+              <label for="ds"
+                >DC
+                <div class="check-box">
+                  <input
+                    class="check-input visually-hidden"
+                    type="checkbox"
+                    name="ds"
+                    value="ds"
+                  />
+                </div>
+              </label>
+            </div>
           </th>
           <th>
-            <label for="ds"
-              >Refill<input type="checkbox" name="refill" value="refill"
-            /></label>
+            <div class="tadle-head-check">
+              <label for="refill"
+                >Refill
+                <div class="check-box">
+                  <input
+                    class="check-input visually-hidden"
+                    type="checkbox"
+                    name="refill"
+                    value="refill"
+                  /></div
+              ></label>
+            </div>
           </th>
           <th>Comment</th>
         </tr>
       </thead>
 
       <tbody class="tbody">
-        <tr>
+        <tr class="tr-item">
           <td>
             <img
               src="./images/modal/discontinue1.jpg"
@@ -82,8 +102,26 @@
           <td>1</td>
           <td>60</td>
           <td>Take One Tablet By Mouth Twice A Day</td>
-          <th><input type="checkbox" name="ds" value="ds" /></th>
-          <th><input type="checkbox" name="refill" value="refill" /></th>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="ds"
+                value="ds"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="refill"
+                value="refill"
+              />
+            </div>
+          </td>
           <th>
             <textarea
               name="action-comment"
@@ -93,7 +131,7 @@
             ></textarea>
           </th>
         </tr>
-        <tr>
+        <tr class="tr-item">
           <td>
             <img
               src="./images/modal/discontinue2.jpg"
@@ -110,8 +148,26 @@
           <td>1</td>
           <td>60</td>
           <td>Take One Tablet By Mouth Twice A Day</td>
-          <th><input type="checkbox" name="ds" value="ds" /></th>
-          <th><input type="checkbox" name="refill" value="refill" /></th>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="ds"
+                value="ds"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="refill"
+                value="refill"
+              />
+            </div>
+          </td>
           <th>
             <textarea
               name="action-comment"

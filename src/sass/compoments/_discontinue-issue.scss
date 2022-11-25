@@ -95,8 +95,49 @@ table tbody {
     color: #9aa6b5;
   }
 }
+table th,
+table td {
+  padding: 10px 10px;
+}
+.tadle-head-check {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.check-box {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border: 1px solid #d8e2ef;
+  border-radius: 50%;
+}
+.check-box::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+
+  border-radius: 50%;
+  // opacity: 0;
+  .check-input:checked + & {
+    // opacity: 1;
+    // display: block;
+    background-color: #fd5000;
+    z-index: 1;
+  }
+}
+
 .tbody {
   background: #ffffff;
+}
+.tr-item:nth-child(even) {
+  background: rgba(216, 226, 239, 0.15);
 }
 .discontinue-btn {
   display: block;
@@ -114,4 +155,11 @@ table tbody {
   background: #5e6e82;
   border: none;
   border-radius: 4px;
+  &:hover,
+  &:focus {
+    background: #7a8a9d;
+  }
+  &:active {
+    background: #4e5c6f;
+  }
 }
