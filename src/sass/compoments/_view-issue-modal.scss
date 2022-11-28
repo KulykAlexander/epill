@@ -1,0 +1,72 @@
+.view-text {
+  margin-bottom: 14px;
+  padding: 22px 24px;
+  font-size: 14px;
+  line-height: 1.64;
+
+  color: var(--modal-main-text);
+  background-color: #fff;
+}
+.see-more {
+  display: inline-block;
+  margin-bottom: 21px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration-line: underline;
+
+  color: #fd5000;
+  &:hover,
+  &:focus {
+    color: #fe6e2b;
+  }
+}
+.add-btn {
+  display: block;
+  width: 125px;
+  height: 34px;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 31px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: #fff;
+  background: #fd5000;
+  border: none;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    background: #fe6e2b;
+  }
+  &:active {
+    background: #eb4a00;
+  }
+}
+.archiv-btn {
+  display: block;
+  width: 163px;
+  height: 34px;
+  margin-left: 0;
+  margin-right: auto;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: #fff;
+  background: #5e6e82;
+  border: none;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    background: #7a8a9d;
+  }
+  &:active {
+    background: #4e5c6f;
+  }
+}

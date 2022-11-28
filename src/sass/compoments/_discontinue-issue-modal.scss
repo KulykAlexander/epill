@@ -1,4 +1,4 @@
-.discontinue-titel {
+.modal-titel {
   margin-bottom: 20px;
   font-weight: 500;
   font-size: 22px;
@@ -75,7 +75,8 @@ textarea {
 table {
   width: 1136px;
   margin-bottom: 14px;
-  // border-collapse: 1px solid #d8e2ef;
+  border-collapse: collapse;
+  border: none;
 }
 table thead {
   font-weight: 500;
@@ -98,6 +99,9 @@ table tbody {
 table th,
 table td {
   padding: 10px 10px;
+
+  border-collapse: collapse;
+  border: none;
 }
 .tadle-head-check {
   display: flex;
@@ -135,6 +139,7 @@ table td {
 
 .tbody {
   background: #ffffff;
+  // border-collapse: collapse;
 }
 .tr-item:nth-child(even) {
   background: rgba(216, 226, 239, 0.15);

@@ -1,0 +1,200 @@
+<div class="overlay js-overlay-modal" id="overlay-modal"></div>
+<div class="modal discontinue" data-modal="2">
+  <button type="button" class="modal-close btn js-modal-close">
+    <svg class="close-icon" width="24" height="24">
+      <use href="./images/modal/icons.svg#icon-modal-close"></use>
+    </svg>
+  </button>
+
+  <form class="discontinue-form">
+    <h2 class="modal-titel">View Issue</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>&#35;</th>
+          <th>Subject</th>
+          <th>Patient Name</th>
+          <th>Assignet to</th>
+          <th>Due Date</th>
+          <th>Created by</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>102</td>
+          <td>162846 Refill / Discontinue Issue for Adam Smith</td>
+          <td>Adam Smitt</td>
+          <td>Lissy</td>
+          <td>07/21/2022</td>
+          <td>Paing</td>
+          <td>07/21/2022 10:50 AM</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="view-text">
+      One of the prominent features required to be on the principal display
+      panel (PDP) of the drug product is the statement of identity. The PDP,
+      often the front panel of the label, is the part of the nonprescription
+      drug’s label most likely to be displayed to the consumer in retail sale.
+      The statement of identity consists of the drug’s established name, if it
+      has one, followed by an accurate statement of the general pharmacological
+      category(ies) or the drug’s principal intended action(s) (for example,
+      “clotrimazole cream, antifungal”). This information tells the consumer
+      what the drug is and its intended use. The drug strength is also often
+      found on the PDP. Consistent content and format of the statement of
+      identity and drug strength may aid consumers in comparing different
+      nonprescription drugs and assist consumers in selecting an appropriate
+      product.
+    </p>
+    <table>
+      <tr>
+        <td>1</td>
+        <td>Tried calling doctor office to no avail</td>
+        <td>Paing</td>
+        <td>07/21/2022 10:50 AM</td>
+      </tr>
+    </table>
+    <a href="" class="see-more link">See More</a>
+    <button type="button" class="add-btn btn">Add a Step</button>
+    <h2 class="modal-titel">Box Items</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Drug&Dose</th>
+          <th>Refills left</th>
+          <th>Q-ty</th>
+          <th>Direction</th>
+          <th>
+            <div class="tadle-head-check">
+              <label for="ds"
+                >DC
+                <div class="check-box">
+                  <input
+                    class="check-input visually-hidden"
+                    type="checkbox"
+                    name="ds"
+                    value="ds"
+                  />
+                </div>
+              </label>
+            </div>
+          </th>
+          <th>
+            <div class="tadle-head-check">
+              <label for="refill"
+                >Refill
+                <div class="check-box">
+                  <input
+                    class="check-input visually-hidden"
+                    type="checkbox"
+                    name="refill"
+                    value="refill"
+                  /></div
+              ></label>
+            </div>
+          </th>
+          <th>Comment</th>
+        </tr>
+      </thead>
+
+      <tbody class="tbody">
+        <tr class="tr-item">
+          <td>
+            <img
+              src="./images/modal/discontinue1.jpg"
+              alt="pills"
+              width="34"
+              height="34"
+            />
+          </td>
+          <td>
+            Acetaminophen 500mg<br /><span
+              >Dr. Abungu, Billy Scott RX#136284</span
+            >
+          </td>
+          <td>1</td>
+          <td>60</td>
+          <td>Take One Tablet By Mouth Twice A Day</td>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="ds"
+                value="ds"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="refill"
+                value="refill"
+              />
+            </div>
+          </td>
+          <th>
+            <textarea
+              name="action-comment"
+              rows="1"
+              placeholder="Add comment"
+              id="action-comment"
+            ></textarea>
+          </th>
+        </tr>
+        <tr class="tr-item">
+          <td>
+            <img
+              src="./images/modal/discontinue2.jpg"
+              alt="pills"
+              width="34"
+              height="34"
+            />
+          </td>
+          <td>
+            Acetaminophen 500mg<br /><span
+              >Dr. Abungu, Billy Scott RX#136284</span
+            >
+          </td>
+          <td>1</td>
+          <td>60</td>
+          <td>Take One Tablet By Mouth Twice A Day</td>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="ds"
+                value="ds"
+              />
+            </div>
+          </td>
+          <td>
+            <div class="check-box">
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="refill"
+                value="refill"
+              />
+            </div>
+          </td>
+          <th>
+            <textarea
+              name="action-comment"
+              rows="1"
+              placeholder="Add comment"
+              id="action-comment"
+            ></textarea>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+    <h2 class="modal-titel">Pending Issues</h2>
+    <button type="submit" class="archiv-btn btn">Archived Issues</button>
+  </form>
+</div>
