@@ -40,11 +40,15 @@
 
     border: 1px solid #d8e2ef;
     border-radius: 4px;
+
     & input::placeholder {
       font-family: inherit;
       font-size: 14px;
       color: var(--modal-semi-color);
     }
+  }
+  .input-date {
+    width: 220px;
   }
   & select {
     width: 311px;

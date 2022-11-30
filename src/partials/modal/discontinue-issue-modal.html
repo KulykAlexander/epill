@@ -11,11 +11,11 @@
     <div class="issue">
       <div class="subject">
         <div class="discontinue-form-field">
-          <label for="name">Subject</label>
+          <label for="subject">Subject</label>
           <input
             type="text"
-            name="name"
-            id="name"
+            name="subject"
+            id="subject"
             placeholder="Discontinued for Chi, Kai"
             required
           />
@@ -26,12 +26,18 @@
             <option value="user">Avonora User</option>
           </select>
         </div>
-        <label>
-          Date
-          <input lang="en" type="date" min="1920-01-01" max="2220-01-01" />
-        </label>
+        <div class="discontinue-form-field">
+          <label for="date">Due Date</label>
+          <input
+            class="input-date"
+            type="text"
+            name="date"
+            id="date"
+            placeholder="05/12/2022"
+            required
+          />
+        </div>
       </div>
-
       <div class="discontinue-form-field">
         <label for="comment">Description</label>
         <textarea

@@ -1,0 +1,76 @@
+.calendar {
+  width: 248px;
+  height: 273px;
+
+  background: #ffffff;
+
+  border: 1px solid #d8e2ef;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+.month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-bottom: 1px solid #d8e2ef;
+}
+.month-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.66;
+  color: var(--modal-main-text);
+}
+.days {
+  padding: 6px 25px;
+}
+.days-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+  li {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.66;
+    color: var(--modal-main-text);
+  }
+}
+.dates-list {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  // display: flex;
+  // flex-wrap: wrap;
+  text-align: center;
+
+  li {
+    // display: flex;
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    // padding: 6px 12px;
+    // position: relative;
+    font-size: 12px;
+    line-height: 1.66;
+    text-align: center;
+    color: var(--modal-main-text);
+  }
+  .pre,
+  .next {
+    color: #9aa6b5;
+  }
+  .active-date {
+    border-radius: 50%;
+    color: #fff;
+    background-color: #fd5000;
+  }
+  .hover-date {
+    border-radius: 50%;
+    background-color: #d8e2ef;
+  }
+}
