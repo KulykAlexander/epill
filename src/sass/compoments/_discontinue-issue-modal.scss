@@ -65,6 +65,19 @@
     color: var(--modal-semi-color);
   }
 }
+.calendar-field {
+  position: relative;
+}
+.calendar-icon {
+  position: absolute;
+  top: 31px;
+  right: 8px;
+}
+.calendar-form-field {
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
 textarea {
   resize: none;
   min-width: 303px;
