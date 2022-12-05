@@ -85,6 +85,15 @@
   color: var(--modal-main-text);
   background-color: #fff;
 }
+.after-view {
+  background-color: #fff;
+  // .after-view-paing {
+  //   width: 40px;
+  // }
+  // .after-view-date {
+  //   width: 160px;
+  // }
+}
 .see-more {
   display: inline-block;
   margin-bottom: 21px;
@@ -155,6 +164,34 @@
     }
   }
 }
+.check-box {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border: 1px solid #d8e2ef;
+  border-radius: 3px;
+}
+.check-box::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+
+  border-radius: 50%;
+  // opacity: 0;
+  .check-input:checked + & {
+    // opacity: 1;
+    // display: block;
+    background-color: #fd5000;
+    z-index: 1;
+  }
+}
 
 .pendind-list {
   display: flex;
@@ -180,6 +217,19 @@
   display: flex;
   align-items: center;
   gap: 3px;
+  .overdue {
+    color: #fd0000;
+  }
+  .expiring {
+    color: #ff9900;
+  }
+  .future {
+    color: #88d23b;
+  }
+  .status-icon {
+    width: 18px;
+    height: 18px;
+  }
 }
 .pre-submit {
   width: 1136px;

@@ -159,15 +159,15 @@
       nonprescription drugs and assist consumers in selecting an appropriate
       product.
     </p>
-    <table>
+    <table class="after-view">
       <tr>
         <td>1</td>
         <td>Tried calling doctor office to no avail</td>
         <td></td>
         <td></td>
         <td></td>
-        <td>Paing</td>
-        <td>07/21/2022 10:50 AM</td>
+        <td class="after-view-paing">Paing</td>
+        <td class="after-view-date">07/21/2022 10:50 AM</td>
       </tr>
     </table>
     <div>
@@ -193,31 +193,12 @@
           <th>Direction</th>
           <th>
             <div class="tadle-head-check">
-              <label for="ds"
-                >DC
-                <div class="check-box">
-                  <input
-                    class="check-input visually-hidden"
-                    type="checkbox"
-                    name="ds"
-                    value="ds"
-                  />
-                </div>
-              </label>
+              <label for="ds">DC </label>
             </div>
           </th>
           <th>
             <div class="tadle-head-check">
-              <label for="refill"
-                >Refill
-                <div class="check-box">
-                  <input
-                    class="check-input visually-hidden"
-                    type="checkbox"
-                    name="refill"
-                    value="refill"
-                  /></div
-              ></label>
+              <label for="refill">Refill</label>
             </div>
           </th>
           <th>Comment</th>
@@ -354,10 +335,10 @@
           <td>07/21/2022</td>
           <td>
             <div class="status">
-              <svg class="close-icon" width="18" height="18">
+              <svg class="status-icon" width="18" height="18">
                 <use href="./images/modal/icons.svg#icon-overdue"></use>
               </svg>
-              Overdue
+              <p class="overdue">Overdue</p>
             </div>
           </td>
           <td><input type="checkbox" /></td>
@@ -372,10 +353,10 @@
           <td>07/21/2022</td>
           <td>
             <div class="status">
-              <svg class="close-icon" width="18" height="18">
+              <svg class="status-icon" width="18" height="18">
                 <use href="./images/modal/icons.svg#icon-expiring"></use>
               </svg>
-              Expiring
+              <p class="expiring">Expiring</p>
             </div>
           </td>
           <td><input type="checkbox" /></td>
@@ -390,10 +371,10 @@
           <td>07/21/2022</td>
           <td>
             <div class="status">
-              <svg class="close-icon" width="18" height="18">
-                <use href="./images/modal/icons.svg#icon-expiring"></use>
+              <svg class="status-icon" width="18" height="18">
+                <use href="./images/modal/icons.svg#icon-future"></use>
               </svg>
-              Expiring
+              <p class="future">Future</p>
             </div>
           </td>
           <td><input type="checkbox" /></td>

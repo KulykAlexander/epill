@@ -128,7 +128,7 @@ table td {
   flex-direction: column;
   gap: 3px;
 }
-.check-box {
+.radio-box {
   position: relative;
   width: 14px;
   height: 14px;
@@ -136,7 +136,7 @@ table td {
   border: 1px solid #d8e2ef;
   border-radius: 50%;
 }
-.check-box::after {
+.radio-box::after {
   content: '';
   display: block;
   position: absolute;
@@ -149,7 +149,7 @@ table td {
 
   border-radius: 50%;
   // opacity: 0;
-  .check-input:checked + & {
+  .radio-box-input:checked + & {
     // opacity: 1;
     // display: block;
     background-color: #fd5000;
