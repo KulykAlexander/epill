@@ -49,6 +49,8 @@
         <label for="assignet">Assignet to</label>
         <select name="assignet" id="assignet">
           <option value="user">Nana</option>
+          <option value="user">Inna</option>
+          <option value="user">Greg</option>
         </select>
       </div>
       <div class="discontinue-form-field calendar-field">
@@ -162,11 +164,13 @@
     <table class="after-view">
       <tr>
         <td>1</td>
-        <td>Tried calling doctor office to no avail</td>
+        <td class="after-view-tried">
+          Tried calling doctor office to no avail
+        </td>
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
+
         <td class="after-view-paing">Paing</td>
         <td class="after-view-date">07/21/2022 10:50 AM</td>
       </tr>
@@ -232,6 +236,9 @@
                 name="ds"
                 value="ds"
               />
+              <svg class="check-icon" width="12" height="12">
+                <use href="./images/modal/icons.svg#icon-check"></use>
+              </svg>
             </div>
           </td>
           <td>
@@ -242,6 +249,9 @@
                 name="refill"
                 value="refill"
               />
+              <svg class="check-icon" width="12" height="12">
+                <use href="./images/modal/icons.svg#icon-check"></use>
+              </svg>
             </div>
           </td>
           <th>
@@ -279,6 +289,9 @@
                 name="ds"
                 value="ds"
               />
+              <svg class="check-icon" width="12" height="12">
+                <use href="./images/modal/icons.svg#icon-check"></use>
+              </svg>
             </div>
           </td>
           <td>
@@ -289,6 +302,9 @@
                 name="refill"
                 value="refill"
               />
+              <svg class="check-icon" width="12" height="12">
+                <use href="./images/modal/icons.svg#icon-check"></use>
+              </svg>
             </div>
           </td>
           <th>
@@ -325,7 +341,7 @@
           <th>Archive</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="pending-body">
         <tr>
           <td>805</td>
           <td>Need updated insurance</td>
@@ -342,7 +358,14 @@
               <p class="overdue">Overdue</p>
             </div>
           </td>
-          <td><input type="checkbox" /></td>
+          <td>
+            <div class="check-box">
+              <input type="checkbox" class="check-input is-hidden" />
+              <svg class="check-icon" width="12" height="12">
+                <use href="./images/modal/icons.svg#icon-check"></use>
+              </svg>
+            </div>
+          </td>
         </tr>
         <tr>
           <td>801</td>
@@ -360,7 +383,14 @@
               <p class="expiring">Expiring</p>
             </div>
           </td>
-          <td><input type="checkbox" /></td>
+          <td>
+            <div class="check-box">
+              <input type="checkbox" class="check-input is-hidden" />
+              <svg class="check-icon" width="12" height="12">
+                <use href="./images/modal/icons.svg#icon-check"></use>
+              </svg>
+            </div>
+          </td>
         </tr>
         <tr>
           <td>802</td>
@@ -378,7 +408,14 @@
               <p class="future">Future</p>
             </div>
           </td>
-          <td><input type="checkbox" /></td>
+          <td>
+            <div class="check-box">
+              <input type="checkbox" class="check-input is-hidden" />
+              <svg class="check-icon" width="12" height="12">
+                <use href="./images/modal/icons.svg#icon-check"></use>
+              </svg>
+            </div>
+          </td>
         </tr>
       </tbody>
     </table>
