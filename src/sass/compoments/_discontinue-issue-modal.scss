@@ -145,13 +145,14 @@ table td {
   transform: translate(-50%, -50%);
   width: 8px;
   height: 8px;
-  background-color: transparent;
+  // background-color: transparent;
+  background-color: #fd5000;
 
   border-radius: 50%;
   // opacity: 0;
   .radio-box-input:checked + & {
-    // opacity: 1;
-    // display: block;
+    opacity: 1;
+    display: block;
     background-color: #fd5000;
     z-index: 1;
   }
