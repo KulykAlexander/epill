@@ -6,6 +6,7 @@
 }
 .view-body {
   background: rgba(253, 80, 0, 0.05);
+  // z-index: 50;
   .pen {
     display: flex;
     justify-content: center;
@@ -168,6 +169,33 @@
     }
   }
 }
+.pending {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 28px;
+  .pending-titel {
+    margin: 0;
+  }
+  .pending-icon {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    background: #ffffff;
+    border: 1px solid #d8e2ef;
+    border-radius: 6px;
+    color: #fd5000;
+    &:hover,
+    &:focus,
+    &:active {
+      background: #fd5000;
+      color: #ffffff;
+    }
+  }
+  .icon-pending {
+    fill: currentColor;
+  }
+}
 .pending-body {
   background-color: #fff;
 }
@@ -212,11 +240,11 @@
 // .box-comment {
 //   width: 303px;
 // }
-.pendind-list {
+.pending-list {
   display: flex;
   gap: 47px;
   margin-bottom: 20px;
-  .pendind-link {
+  .pending-link {
     font-weight: 500;
     font-size: 15px;
     line-height: 1;
