@@ -82,6 +82,9 @@ textarea {
   resize: none;
   min-width: 303px;
   padding: 10px 10px;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--modal-semi-color);
 
   border: 1px solid #d8e2ef;
   border-radius: 4px;
@@ -102,6 +105,8 @@ table thead {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
+  text-align: left;
+  padding-left: 8px;
 
   color: var(--modal-main-text);
 }
@@ -119,9 +124,12 @@ table tbody {
 table th,
 table td {
   padding: 8px 8px;
-
+  font-weight: 500;
   border-collapse: collapse;
   border: none;
+}
+table thead th:last-child {
+  padding-left: 16px;
 }
 .tadle-head-check {
   display: flex;
