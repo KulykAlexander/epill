@@ -2,11 +2,12 @@
 //   height: 1260px;
 // }
 .view-head {
-  text-align: start;
+  text-align: left;
 }
 .view-body {
-  background: rgba(253, 80, 0, 0.05);
-  // z-index: 50;
+  background: #fd50000d;
+  z-index: 50;
+  font-weight: 400;
   .pen {
     display: flex;
     justify-content: center;
