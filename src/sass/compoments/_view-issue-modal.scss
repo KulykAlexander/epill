@@ -133,12 +133,14 @@
 .new-step-title {
   width: 1136px;
   margin-bottom: 20px;
-  padding: 7px 24px;
+  padding: 10px 24px;
   font-size: 14px;
   line-height: 1.5;
 
   color: #5e6e8270;
   background-color: #fff;
+  border: none;
+  border-radius: 0;
 }
 .btn-group {
   display: flex;
