@@ -36,27 +36,29 @@ textarea:focus {
 }
 select {
   // padding-right: 8px;
-
+  vertical-align: middle;
   appearance: none;
   background: url(../images/modal/select.svg) no-repeat right;
   background-position-x: calc(100% - 14px);
   outline: 1px solid #d8e2ef;
 }
-option:focus {
+option:active {
   padding-right: 8px;
-  outline: none;
-  border: 1px solid #d8e2ef;
-}
-select:focus,
-select:hover,
-option:hover,
-option:focus {
   border: none;
   outline: none;
-  border: transparent;
-}
-select > option {
-  border: none;
-  outline: none;
+  outline: 1px solid #d8e2ef;
   border: 1px solid #d8e2ef;
 }
+// select:focus,
+// select:hover,
+// option:hover,
+// option:focus {
+//   border: none;
+//   outline: none;
+//   border: transparent;
+// }
+// select > option {
+//   border: none;
+//   outline: none;
+//   border: 1px solid #d8e2ef;
+// }
