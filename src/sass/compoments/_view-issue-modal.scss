@@ -8,11 +8,27 @@
   background: #fd50000d;
   z-index: 50;
   font-weight: 400;
-  .pen {
+  .view-pen {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
+  }
+  .pen {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    color: #fd5000;
+    &:hover,
+    &:focus {
+      color: #7a8a9d;
+    }
+    &:active {
+      color: #4e5c6f;
+    }
+  }
+  .pen-icon {
+    fill: currentColor;
   }
 }
 .assignet {
