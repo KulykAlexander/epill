@@ -205,20 +205,26 @@
   .pending-icon {
     width: 28px;
     height: 28px;
-    padding: 6px;
+    padding: 5px;
     background: #ffffff;
     border: 1px solid #d8e2ef;
     border-radius: 6px;
     color: #fd5000;
+
     &:hover,
-    &:focus,
+    &:focus {
+      border: 1px solid #fd5000;
+    }
     &:active {
       background: #fd5000;
       color: #ffffff;
     }
   }
   .icon-pending {
-    fill: currentColor;
+    // width: 1em;
+    // height: 1em;
+    stroke: currentColor;
+    // fill: currentColor;
   }
 }
 .pending-body {

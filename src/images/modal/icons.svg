@@ -38,8 +38,12 @@
 <path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M20.198 6.857l-8.437 0.003c-3.030 0.017-4.904 1.822-4.904 4.571v9.135c0 2.766 1.889 4.576 4.944 4.576l8.437-0.003c3.029-0.016 4.905-1.821 4.905-4.571v-9.135c0-2.766-1.89-4.576-4.945-4.576z"></path>
 </symbol>
 <symbol id="icon-pending-issues-smoll" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4889" d="M19.161 22.674h-8.699M23.9 16.059h-13.438M16.789 9.458h-6.325"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4889" d="M22.53 1.778l-13.124 0.005c-4.713 0.027-7.628 2.834-7.628 7.111v14.21c0 4.302 2.939 7.118 7.691 7.118l13.124-0.005c4.711-0.025 7.63-2.834 7.63-7.111v-14.212c0-4.3-2.94-7.116-7.692-7.116z"></path>
+<path d="M19.161 22.674h-8.699M23.9 16.059h-13.438M16.789 9.458h-6.325"></path>
+<path d="M22.53 1.778l-13.124 0.005c-4.713 0.027-7.628 2.834-7.628 7.111v14.21c0 4.302 2.939 7.118 7.691 7.118l13.124-0.005c4.711-0.025 7.63-2.834 7.63-7.111v-14.212c0-4.3-2.94-7.116-7.692-7.116z"></path>
+</symbol>
+<symbol id="icon-pending-issues-two" viewBox="0 0 32 32">
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4889" d="M19.161 22.674h-8.699M23.9 16.059h-13.438M16.789 9.458h-6.325"></path>
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4889" d="M22.53 1.778l-13.124 0.005c-4.713 0.027-7.628 2.834-7.628 7.111v14.21c0 4.302 2.939 7.118 7.691 7.118l13.124-0.005c4.711-0.025 7.63-2.834 7.63-7.111v-14.212c0-4.3-2.94-7.116-7.692-7.116z"></path>
 </symbol>
   </defs>
 </svg>
