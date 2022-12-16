@@ -71,10 +71,23 @@
 .calendar-field {
   position: relative;
 }
-.calendar-icon {
+.icon-calendar {
   position: absolute;
   top: 31px;
   right: 8px;
+  width: 17px;
+  height: 17px;
+  color: #99a7b9;
+  &:hover,
+  &:focus {
+    color: #7a8a9d;
+  }
+  &:active {
+    color: #4e5c6f;
+  }
+}
+.calendar-icon {
+  fill: currentColor;
 }
 .calendar-form-field {
   position: absolute;
