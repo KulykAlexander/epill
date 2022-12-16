@@ -45,5 +45,12 @@
 <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4889" d="M19.161 22.674h-8.699M23.9 16.059h-13.438M16.789 9.458h-6.325"></path>
 <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4889" d="M22.53 1.778l-13.124 0.005c-4.713 0.027-7.628 2.834-7.628 7.111v14.21c0 4.302 2.939 7.118 7.691 7.118l13.124-0.005c4.711-0.025 7.63-2.834 7.63-7.111v-14.212c0-4.3-2.94-7.116-7.692-7.116z"></path>
 </symbol>
+<symbol id="icon-goeicon" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+<path fill="#000" style="fill: var(--color2, #000)" d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+</symbol>
+<symbol id="icon-ezicon" viewBox="0 0 32 32">
+<path d="M0 0h32v32h-32z"></path>
+</symbol>
   </defs>
 </svg>
