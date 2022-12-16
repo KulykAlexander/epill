@@ -86,6 +86,7 @@ textarea {
   min-width: 303px;
   padding: 7px 10px;
   font-family: inherit;
+  font-weight: 400;
   font-size: 14px;
   color: var(--modal-semi-color);
 
@@ -115,7 +116,7 @@ table thead {
   color: var(--modal-main-text);
 }
 table tbody {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
 
@@ -128,12 +129,20 @@ table tbody {
 table th {
   vertical-align: top;
 }
-table th,
-table td {
+table th {
   padding: 8px 8px;
   font-weight: 500;
   border-collapse: collapse;
   border: none;
+}
+table td {
+  padding: 8px 8px;
+  // font-weight: 400;
+  border-collapse: collapse;
+  border: none;
+}
+.doctor {
+  font-weight: 400;
 }
 table thead th:last-child {
   padding-left: 21px;
@@ -174,6 +183,7 @@ table thead th:last-child {
 }
 
 .tbody {
+  font-weight: 500;
   background: #ffffff;
   // border-collapse: collapse;
 }
