@@ -187,7 +187,7 @@ table thead th:last-child {
   background-color: #fd5000;
 
   border-radius: 50%;
-  // opacity: 0;
+  opacity: 1;
   .radio-box-input:checked + & {
     opacity: 1;
     display: block;
