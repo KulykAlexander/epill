@@ -12,6 +12,36 @@
     width: 164px;
     height: 34px;
   }
+  .issue-btn-create {
+    background: #fd5000;
+    &:hover,
+    &:focus {
+      background: #fe6e2b;
+    }
+    &:active {
+      background: #eb4a00;
+    }
+  }
+  .issue-btn-fax {
+    background: #8996a6;
+    &:hover,
+    &:focus {
+      background: #99a7b9;
+    }
+    &:active {
+      background: #798696;
+    }
+  }
+  .issue-btn-arch {
+    background: #5e6e82;
+    &:hover,
+    &:focus {
+      background: #7a8a9d;
+    }
+    &:active {
+      background: #4e5c6f;
+    }
+  }
 }
 .section-issue {
   width: 1710px;
