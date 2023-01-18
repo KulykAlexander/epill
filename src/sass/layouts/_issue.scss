@@ -209,6 +209,21 @@
     flex-direction: column;
     gap: 5px;
   }
+  .filter-subject {
+    width: 220px;
+  }
+  .filter-rx {
+    width: 154px;
+  }
+  .filter-medication {
+    width: 340px;
+  }
+  .filter-resident {
+    width: 342px;
+  }
+  .filter-assigned {
+    width: 358px;
+  }
   .form-reset-btn {
     width: 141px;
     height: 34px;
@@ -245,12 +260,13 @@
   font-size: 14px;
   .issues-numbers {
     padding-left: 19px;
+    width: 90px;
   }
 }
 .issues-tbody {
   font-size: 15px;
   line-height: 1.46;
-  background: rgba(216, 226, 239, 0.85);
+  background: #fff;
   border: 1px solid #d8e2ef;
 }
 .issue-number {
