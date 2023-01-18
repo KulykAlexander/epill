@@ -187,6 +187,12 @@
 
     color: #5e6e82;
   }
+  select {
+    height: 34px;
+    padding: 10px 9px;
+    border: 1px solid #d8e2ef;
+    border-radius: 4px;
+  }
   select,
   option {
     font-family: inherit;
@@ -237,12 +243,26 @@
 }
 .issues-thead {
   font-size: 14px;
+  .issues-numbers {
+    padding-left: 19px;
+  }
 }
 .issues-tbody {
   font-size: 15px;
   line-height: 1.46;
   background: rgba(216, 226, 239, 0.85);
   border: 1px solid #d8e2ef;
+}
+.issue-number {
+  display: flex;
+  align-items: center;
+}
+.unread-check {
+  width: 4px;
+  height: 4px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: #fd5000;
 }
 .resident-name {
   font-weight: 500;

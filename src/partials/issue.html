@@ -115,8 +115,8 @@
     <table class="issues-table">
       <thead class="issues-thead">
         <tr>
-          <th><input type="checkbox" /> &#35;</th>
-          <th>Subject</th>
+          <th class="issues-numbers"><input type="checkbox" /> &#35;</th>
+          <th>Subject <button>^</button></th>
           <th>Rx</th>
           <th>Medication</th>
           <th>Resident Name</th>
@@ -132,7 +132,10 @@
           <td colspan="10">Villanueva, Steven</td>
         </tr>
         <tr>
-          <td><input type="checkbox" />805</td>
+          <td class="issue-number">
+            <div class="unread-check"></div>
+            <input type="checkbox" />805
+          </td>
           <td>Need updated insurance</td>
           <td>130761</td>
           <td>Risperdal Consta</td>
