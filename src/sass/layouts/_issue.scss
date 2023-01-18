@@ -177,6 +177,7 @@
   padding-right: 12px;
   padding-bottom: 20px;
   padding-left: 15px;
+  margin-bottom: 25px;
   background: #fff;
 
   label {
@@ -261,6 +262,33 @@
   .issues-numbers {
     padding-left: 19px;
     width: 90px;
+  }
+  // .issues-subject {
+  //   width: 240px;
+  // }
+  .head-filter {
+    display: flex;
+    // align-items: center;
+    // gap: 3px;
+  }
+  .table-filter-btn {
+    display: block;
+    width: 10px;
+    height: 10px;
+    // padding-top: 7px;
+    // padding-bottom: 7px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #2c7be5;
+    background: #edf2f9;
+    &:active {
+      color: #fd5000;
+    }
+    border: none;
+    .table-filter-icon {
+      fill: currentColor;
+    }
   }
 }
 .issues-tbody {
