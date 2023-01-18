@@ -15,36 +15,41 @@
   <div>
     <div class="issue-nav">
       <ul class="my-issues-list list">
-        <li><button type="button" class="btn">All Issues</button></li>
         <li>
-          <button type="button" class="btn">Issues Assigned to Me</button>
+          <button type="button" class="all-issues-btn btn">All Issues</button>
         </li>
-        <li><button type="button" class="btn">My Issues</button></li>
+        <li>
+          <button type="button" class="assigned-me-btn btn">
+            Issues Assigned to Me
+          </button>
+        </li>
+        <li>
+          <button type="button" class="my-issues-btn btn">My Issues</button>
+        </li>
       </ul>
       <ul class="issues-by-read-list list">
         <li>
-          <button type="button" class="btn">
+          <button type="button" class="by-read-btn unread-btn btn">
             Unread <samp class="unread">4</samp>
           </button>
         </li>
-        <li><button type="button" class="btn">Advanced Filter</button></li>
+        <li>
+          <button type="button" class="by-read-btn btn">Advanced Filter</button>
+        </li>
         <li>
           <ul class="view-issues-list list">
-            <p>View:</p>
-            <li><button type="button" class="btn">All</button></li>
+            <p class="view-issues">View:</p>
+            <li><button type="button" class="by-read-btn btn">All</button></li>
             <li>
-              <button type="button" class="btn">Group by Resident</button>
+              <button type="button" class="by-read-btn btn">
+                Group by Resident
+              </button>
             </li>
           </ul>
         </li>
       </ul>
     </div>
     <form action="" class="filter-form">
-      <button type="button" class="modal-close btn js-modal-close">
-        <svg class="close-icon" width="10" height="10">
-          <use href="./images/modal/icons.svg#icon-modal-close"></use>
-        </svg>
-      </button>
       <div class="filter-form-field">
         <label for="subject">Subject</label>
         <select name="subject" id="subject">
@@ -57,53 +62,58 @@
         </select>
       </div>
       <div class="filter-form-field">
-        <label for="subject">Rx</label>
-        <select name="subject" id="subject">
-          <option value="subject">Select</option>
-          <option value="subject">Missing Item</option>
-          <option value="subject">Other</option>
-          <option value="subject">Bug</option>
-          <option value="subject">Discontinue</option>
-          <option value="subject">Need updated insurance</option>
+        <label for="rx">Rx</label>
+        <select name="rx" id="rx">
+          <option value="rx">Select</option>
+          <option value="rx">Missing Item</option>
+          <option value="rx">Other</option>
+          <option value="rx">Bug</option>
+          <option value="rx">Discontinue</option>
+          <option value="rx">Need updated insurance</option>
         </select>
       </div>
       <div class="filter-form-field">
-        <label for="subject">Medication</label>
-        <select name="subject" id="subject">
-          <option value="subject">Select</option>
-          <option value="subject">Missing Item</option>
-          <option value="subject">Other</option>
-          <option value="subject">Bug</option>
-          <option value="subject">Discontinue</option>
-          <option value="subject">Need updated insurance</option>
+        <label for="medication">Medication</label>
+        <select name="medication" id="medication">
+          <option value="medication">Select</option>
+          <option value="medication">Missing Item</option>
+          <option value="medication">Other</option>
+          <option value="medication">Bug</option>
+          <option value="medication">Discontinue</option>
+          <option value="medication">Need updated insurance</option>
         </select>
       </div>
       <div class="filter-form-field">
-        <label for="subject">Resident Name</label>
-        <select name="subject" id="subject">
-          <option value="subject">Select</option>
-          <option value="subject">Missing Item</option>
-          <option value="subject">Other</option>
-          <option value="subject">Bug</option>
-          <option value="subject">Discontinue</option>
-          <option value="subject">Need updated insurance</option>
+        <label for="resident">Resident Name</label>
+        <select name="resident" id="resident">
+          <option value="resident">Select</option>
+          <option value="resident">Missing Item</option>
+          <option value="resident">Other</option>
+          <option value="resident">Bug</option>
+          <option value="resident">Discontinue</option>
+          <option value="resident">Need updated insurance</option>
         </select>
       </div>
       <div class="filter-form-field">
-        <label for="subject">Assigned to</label>
-        <select name="subject" id="subject">
-          <option value="subject">Select</option>
-          <option value="subject">Missing Item</option>
-          <option value="subject">Other</option>
-          <option value="subject">Bug</option>
-          <option value="subject">Discontinue</option>
-          <option value="subject">Need updated insurance</option>
+        <label for="assigned">Assigned to</label>
+        <select name="assigned" id="assigned">
+          <option value="assigned">Select</option>
+          <option value="assigned">Missing Item</option>
+          <option value="assigned">Other</option>
+          <option value="assigned">Bug</option>
+          <option value="assigned">Discontinue</option>
+          <option value="assigned">Need updated insurance</option>
         </select>
       </div>
-      <button class="btn">Reset</button>
+      <button class="form-reset-btn btn">Reset</button>
+      <button type="button" class="filter-form-btn btn">
+        <svg class="close-icon" width="10" height="10">
+          <use href="./images/modal/icons.svg#icon-modal-close"></use>
+        </svg>
+      </button>
     </form>
-    <table>
-      <thead>
+    <table class="issues-table">
+      <thead class="issues-thead">
         <tr>
           <th><input type="checkbox" /> &#35;</th>
           <th>Subject</th>
@@ -117,7 +127,10 @@
           <th></th>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="issues-tbody">
+        <tr>
+          <td>Villanueva, Steven</td>
+        </tr>
         <tr>
           <td><input type="checkbox" />805</td>
           <td>Need updated insurance</td>
@@ -141,5 +154,22 @@
         </tr>
       </tbody>
     </table>
+  </div>
+  <div class="pages-btn">
+    <ul class="page-list list">
+      <li><button type="button" class="page-btn btn"><</button></li>
+      <li><button type="button" class="page-btn btn">1</button></li>
+      <li><button type="button" class="page-btn btn">2</button></li>
+      <li><button type="button" class="page-btn btn">3</button></li>
+      <li><button type="button" class="page-btn btn">4</button></li>
+      <li><button type="button" class="page-btn btn">5</button></li>
+      <li><button type="button" class="page-btn btn">></button></li>
+    </ul>
+    <ul class="all-page-list list">
+      <li><button type="button" class="page-btn btn">25</button></li>
+      <li><button type="button" class="page-btn btn">50</button></li>
+      <li><button type="button" class="page-btn btn">100</button></li>
+      <li><button type="button" class="page-btn btn">All</button></li>
+    </ul>
   </div>
 </section>
