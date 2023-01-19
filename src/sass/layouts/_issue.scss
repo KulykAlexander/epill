@@ -205,6 +205,11 @@
     border: 1px solid #d8e2ef;
     border-radius: 4px;
   }
+  option {
+    width: 100%;
+    border: 1px solid #d8e2ef;
+    border-radius: 4px;
+  }
   select,
   option {
     font-family: inherit;
@@ -287,8 +292,6 @@
     display: block;
     width: 10px;
     height: 10px;
-    // padding-top: 7px;
-    // padding-bottom: 7px;
     text-align: center;
     cursor: pointer;
 
