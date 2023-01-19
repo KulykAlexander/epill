@@ -366,7 +366,7 @@
 .unread-issue-detalis .issue-details-link {
   font-weight: 600;
 }
-.issue-details:nth-child(even) .unread-issue-detalis {
+.unread-issue-detalis.issue-details:nth-child(even) {
   background: #fff6f2;
 }
 // pages-btn
