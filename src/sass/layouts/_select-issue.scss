@@ -1,4 +1,13 @@
+.select {
+  // position: relative;
+}
+.filter-form-field {
+  position: relative;
+}
 .select-list {
+  position: absolute;
+  top: 23px;
+  width: 100%;
   padding: 8px 9px;
   background: #ffffff;
 
@@ -15,9 +24,18 @@
   opacity: 0.7;
 }
 .current-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   opacity: 1;
 }
+.current-item-icon {
+  fill: currentColor;
+}
 .check-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #fd5000;
   background: #fff6f2;
 }
