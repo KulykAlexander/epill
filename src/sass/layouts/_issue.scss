@@ -243,8 +243,9 @@
     position: absolute;
     top: 5px;
     right: 8px;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
 
     background: #fff;
   }
@@ -315,6 +316,17 @@
   font-weight: 500;
   color: #2c7be5;
   background: #e4ebf5;
+}
+.issue-details-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.46;
+  color: #5e6e82;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    color: #2c7be5;
+  }
 }
 .issue-edit-btn {
   width: 46px;
