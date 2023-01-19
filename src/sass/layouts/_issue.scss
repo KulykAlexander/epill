@@ -315,6 +315,7 @@
 .issue-number {
   display: flex;
   align-items: center;
+  // gap: 5px;
 }
 .unread-check {
   width: 4px;
@@ -322,6 +323,7 @@
   margin-right: 7px;
   border-radius: 50%;
   background: #fd5000;
+  opacity: 1;
 }
 .resident-name {
   font-weight: 500;
@@ -353,6 +355,16 @@
   &:active {
     background: #4e5c6f;
   }
+}
+.unread-issue-detalis {
+  font-weight: 600;
+  background: #fff6f2;
+}
+.unread-issue-detalis .issue-details-link {
+  font-weight: 600;
+}
+.issue-details:nth-child(even) .unread-issue-detalis {
+  background: #fff6f2;
 }
 // pages-btn
 .pages-btn {
