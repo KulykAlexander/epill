@@ -1,6 +1,6 @@
-.select {
-  // position: relative;
-}
+// .select {
+//   // position: relative;
+// }
 .filter-form-field {
   position: relative;
 }
@@ -13,6 +13,8 @@
 
   border: 1px solid #d8e2ef;
   border-radius: 4px;
+
+  opacity: 0;
 }
 .select-list-item {
   height: 31px;
