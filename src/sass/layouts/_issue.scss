@@ -127,6 +127,9 @@
     border-left: 1px solid #d8e2ef;
   }
   .by-read-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     font-size: 15px;
     line-height: 1.46;
     background: #edf2f9;
@@ -143,6 +146,9 @@
 
       opacity: 1;
     }
+  }
+  .advanced-icon {
+    fill: currentColor;
   }
   .unread-btn {
     display: flex;
