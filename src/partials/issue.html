@@ -35,9 +35,15 @@
         </li>
         <li>
           <button type="button" class="by-read-btn btn">
-            <svg class="advanced-icon" width="13" height="13">
+            <img
+              src="./images/modal/advanced.png"
+              alt=""
+              width="13"
+              height="13"
+            />
+            <!-- <svg class="advanced-icon" width="13" height="13">
               <use href="./images/modal/icons.svg#icon-advanced"></use>
-            </svg>
+            </svg> -->
             Advanced Filter
           </button>
         </li>
@@ -213,7 +219,7 @@
       <thead class="issues-thead">
         <tr>
           <th class="issues-numbers"><input type="checkbox" /> &#35;</th>
-          <th>
+          <th class="issues-subject">
             <div class="head-filter">
               Subject
               <button type="button" class="table-filter-btn">
@@ -223,7 +229,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-rx">
             <div class="head-filter">
               Rx<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -232,7 +238,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-medication">
             <div class="head-filter">
               Medication<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -251,7 +257,7 @@
             </div>
           </th>
           <th>Description</th>
-          <th>
+          <th class="issues-assigned">
             <div class="head-filter">
               Assigned to<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -260,7 +266,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-time">
             <div class="head-filter">
               Time Stamp<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -269,7 +275,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-status">
             <div class="head-filter">
               Status<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -278,7 +284,7 @@
               </button>
             </div>
           </th>
-          <th></th>
+          <th class="issues-edit"></th>
         </tr>
       </thead>
       <tbody class="issues-tbody">
@@ -461,7 +467,7 @@
       <thead class="issues-thead">
         <tr>
           <th class="issues-numbers"><input type="checkbox" /> &#35;</th>
-          <th>
+          <th class="issues-subject">
             <div class="head-filter">
               Subject
               <button type="button" class="table-filter-btn">
@@ -471,7 +477,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-rx">
             <div class="head-filter">
               Rx<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -480,7 +486,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-medication">
             <div class="head-filter">
               Medication<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -490,8 +496,8 @@
             </div>
           </th>
 
-          <th>Description</th>
-          <th>
+          <th class="issues-description">Description</th>
+          <th class="issues-assigned">
             <div class="head-filter">
               Assigned to<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -500,7 +506,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-time">
             <div class="head-filter">
               Time Stamp<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -509,7 +515,7 @@
               </button>
             </div>
           </th>
-          <th>
+          <th class="issues-status">
             <div class="head-filter">
               Status<button type="button" class="table-filter-btn">
                 <svg class="table-filter-icon" width="10" height="10">
@@ -518,7 +524,7 @@
               </button>
             </div>
           </th>
-          <th></th>
+          <th class="issues-edit"></th>
         </tr>
       </thead>
       <tbody class="issues-tbody">
@@ -534,7 +540,9 @@
           <td>130761</td>
           <td>Risperdal Consta</td>
 
-          <td>Made new rx under dr. adam...</td>
+          <td>
+            Made new rx under dr. adam... Made new rx under dr. adam... Made new
+          </td>
           <td>EZPill</td>
           <td>07/21/2022 10:50 AM</td>
           <td>

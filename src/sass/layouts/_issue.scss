@@ -286,9 +286,30 @@
     padding-left: 19px;
     width: 90px;
   }
-  // .issues-subject {
-  //   width: 240px;
-  // }
+  .issues-subject {
+    width: 240px;
+  }
+  .issues-rx {
+    width: 90px;
+  }
+  .issues-medication {
+    width: 180px;
+  }
+  .issues-description {
+    width: 540px;
+  }
+  .issues-assigned {
+    width: 130px;
+  }
+  .issues-time {
+    width: 190px;
+  }
+  .issues-status {
+    width: 110px;
+  }
+  .issues-edit {
+    width: 84px;
+  }
   .head-filter {
     display: flex;
     // align-items: center;
