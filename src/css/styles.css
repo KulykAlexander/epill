@@ -771,11 +771,13 @@ table td {
 /* ISSUE Page Styles */
 
 .section-issue-btn {
-  width: 1710px;
+  /* width: 1710px; */
+  width: 100vw;
   padding-top: 12px;
   padding-right: 31px;
   padding-bottom: 13px;
   background: #e4ebf5;
+  object-fit: cover;
 }
 .section-issue-btn .issue-btn-list {
   display: flex;
@@ -818,12 +820,14 @@ table td {
 }
 
 .section-issue {
-  width: 1710px;
+  /* width: 1710px; */
+  width: 100vw;
   padding-top: 33px;
   padding-right: 31px;
   padding-left: 27px;
   padding-bottom: 33px;
   background: #edf2f9;
+  object-fit: cover;
 }
 
 .issue-nav {
@@ -1030,7 +1034,8 @@ table td {
 }
 
 .issues-table {
-  width: 1653px;
+  /* width: 1653px; */
+  width: calc(100vw - 58px);
 }
 .issues-table input {
   margin-right: 13px;
@@ -1051,6 +1056,12 @@ table td {
 }
 .issues-thead .issues-medication {
   width: 180px;
+}
+.issues-thead .issues-resident-name {
+  width: 190px;
+}
+.issues-thead .issues-resident-name-description {
+  width: 350px;
 }
 .issues-thead .issues-description {
   width: 540px;
