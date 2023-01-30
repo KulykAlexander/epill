@@ -798,6 +798,9 @@ table td {
 .section-issue-btn .issue-btn-create:active {
   background: #eb4a00;
 }
+.section-issue-btn .issue-btn-create:disabled {
+  opacity: 0.5;
+}
 .section-issue-btn .issue-btn-fax {
   background: #8996a6;
 }
@@ -808,6 +811,9 @@ table td {
 .section-issue-btn .issue-btn-fax:active {
   background: #798696;
 }
+.section-issue-btn .issue-btn-fax:disabled {
+  opacity: 0.5;
+}
 .section-issue-btn .issue-btn-arch {
   background: #5e6e82;
 }
@@ -817,6 +823,9 @@ table td {
 }
 .section-issue-btn .issue-btn-arch:active {
   background: #4e5c6f;
+}
+.section-issue-btn .issue-btn-arch:disabled {
+  opacity: 0.5;
 }
 
 .section-issue {
@@ -857,6 +866,9 @@ table td {
   border-bottom: 1px solid #eb4a00;
   opacity: 1;
 }
+.issue-nav .all-issues-btn:disabled {
+  opacity: 0.5;
+}
 
 .issue-nav .assigned-me-btn {
   font-size: 15px;
@@ -876,6 +888,9 @@ table td {
   border-bottom: 1px solid #eb4a00;
   opacity: 1;
 }
+.issue-nav .assigned-me-btn:disabled {
+  opacity: 0.5;
+}
 .issue-nav .my-issues-btn {
   font-size: 15px;
   line-height: 1;
@@ -893,6 +908,9 @@ table td {
   color: #eb4a00;
   border-bottom: 1px solid #eb4a00;
   opacity: 1;
+}
+.issue-nav .my-issues-btn:disabled {
+  opacity: 0.5;
 }
 .issue-nav .issues-by-read-list {
   display: flex;
@@ -918,6 +936,9 @@ table td {
 .issue-nav .by-read-btn:active {
   color: #eb4a00;
   opacity: 1;
+}
+.issue-nav .by-read-btn:disabled {
+  opacity: 0.5;
 }
 .issue-nav .advanced-icon {
   fill: currentColor;
@@ -1026,6 +1047,9 @@ table td {
 }
 .filter-form .form-reset-btn:active {
   background: #4e5c6f;
+}
+.filter-form .form-reset-btn:disabled {
+  opacity: 0.5;
 }
 .filter-form .filter-form-btn {
   position: absolute;
@@ -1143,6 +1167,9 @@ table td {
 .issues-thead .table-filter-btn:active {
   color: #fd5000;
 }
+.issues-thead .table-filter-btn:disabled {
+  opacity: 0.5;
+}
 .issues-thead .table-filter-btn .table-filter-icon {
   fill: currentColor;
 }
@@ -1209,7 +1236,9 @@ table td {
 .issue-edit-btn:active {
   background: #4e5c6f;
 }
-
+.issue-edit-btn:disabled {
+  opacity: 0.5;
+}
 .unread-issue-detalis {
   font-weight: 600;
   background: #fff6f2;
@@ -1252,6 +1281,9 @@ table td {
 .page-btn:active {
   color: #fd5000;
   opacity: 1;
+}
+.page-btn:disabled {
+  opacity: 0.5;
 }
 .current-page-active-color {
   color: #fd5000;
