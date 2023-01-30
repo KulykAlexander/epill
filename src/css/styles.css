@@ -1063,7 +1063,7 @@ table td {
 /* TABLE */
 
 .section-issue table {
-  width: 1136px;
+  /* width: 1136px; */
   margin-bottom: 14px;
   border-collapse: collapse;
   border: none;
